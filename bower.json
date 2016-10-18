@@ -1,0 +1,29 @@
+{
+  "name": "image-popup-app",
+  "authors": [
+    "Lim Kimhuor <kimhuorlim@gmail.com>"
+  ],
+  "description": "Image popup with Magific Popup plugin",
+  "main": "",
+  "keywords": [
+    "AngularJS",
+    "Imagepopup",
+    "Plugin"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angular-resource": "^1.5.8"
+  }
+}
