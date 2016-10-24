@@ -15,6 +15,5 @@
 //= require turbolinks
 //= require bootstrap/dist/js/bootstrap.min
 //= require angular/angular.min
-//= require angular-resource/angular-resource.min
-//= require angular-route/angular-route.min
 //= require magnific-popup/dist/jquery.magnific-popup.min
+//= require_tree ./angular
