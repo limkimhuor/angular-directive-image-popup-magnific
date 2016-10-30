@@ -14,3 +14,32 @@
  *= require magnific-popup/dist/magnific-popup
  *= require_self
  */
+
+.picture {
+  h2 {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF5733;
+    margin: 0 0 40px 0;
+  }
+}
+#list-pic {
+  a {
+    position: relative;
+    display: block;
+    float: left;
+    width: 75px;
+    height: 75px;
+    margin-right: 13px;
+    margin-bottom: 37px;
+    padding: 1px;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+.image-source-link {
+ color: rgb(148, 213, 243);
+}

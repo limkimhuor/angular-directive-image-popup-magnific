@@ -1,1 +1,19 @@
-
+<div ng-app="myApp" ng-controller="ImagePopupController as vm"
+  ng-init="vm.assets='<%= list_image_assets('popup_img') %>'">
+  <div class="picture" ng-init="vm.small = '<%= list_image_assets('small') %>'">
+    <div class="row">
+      <div class="col-md-6 col-xs-6 col-md-offset-3 col-xs-offset-3">
+        <h2>Magnific Popup</h2>
+        <div class="pic-ct clearfix">
+          <div id="list-pic" magnific-popup>
+            <a ng-href="{{value}}" ng-repeat="(key, value) in images"
+              title="more detail" link="//viblo.asia/posts/PDOkqMlJkjx">
+              <img ng-src="{{small[key]}}">
+              <p>{{key}}</p>
+            </a>
+          </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
